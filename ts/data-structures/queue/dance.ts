@@ -21,6 +21,7 @@ const validObj: {
 const setDancer = async () => {
   const allPeople = await readFile(filePath, { encoding: 'utf-8' });
   allPeople.split('\n').map((people) => {
+    // Person from file like: F-Allison McMillan
     const person = people.split('-');
     validObj[person[0]](new Dancer(person[1], person[0]));
   });
