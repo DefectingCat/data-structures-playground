@@ -57,6 +57,11 @@
   resolved "https://registry.nlark.com/@types/json-schema/download/@types/json-schema-7.0.9.tgz?cache=0&sync_timestamp=1629708189890&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.9.tgz"
   integrity sha1-l+3JA36gw4WFMgsolk3eOznkZg0=
 
+"@types/node@^16.11.7":
+  version "16.11.7"
+  resolved "https://registry.npmmirror.com/@types/node/download/@types/node-16.11.7.tgz?cache=0&sync_timestamp=1636407492316&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-16.11.7.tgz#36820945061326978c42a01e56b61cd223dfdc42"
+  integrity sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==
+
 "@typescript-eslint/eslint-plugin@^5.1.0":
   version "5.1.0"
   resolved "https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-5.1.0.tgz?cache=0&sync_timestamp=1634972189278&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-5.1.0.tgz"

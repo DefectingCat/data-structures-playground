@@ -1,7 +1,11 @@
 class MyStack<T> {
   private data: T[];
-  constructor(initData?: T[]) {
-    this.data = initData ?? [];
+  constructor(initData?: T[] | T) {
+    if (initData instanceof Array) {
+      this.data = initData;
+    } else {
+      this.data = initData ? [initData] : [];
+    }
   }
 
   push(value: T[] | T) {
