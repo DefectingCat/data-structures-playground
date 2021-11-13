@@ -35,6 +35,17 @@ class Queue<T> {
   toString() {
     return this.dataStore.toString();
   }
+
+  map(
+    callbackfn: (value: T, index: number, array: T[]) => unknown,
+    thisArg?: unknown
+  ) {
+    return this.dataStore.map(callbackfn, thisArg);
+  }
+
+  get itera() {
+    return this.dataStore;
+  }
 }
 
 export default Queue;
